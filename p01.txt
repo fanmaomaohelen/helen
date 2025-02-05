@@ -1,0 +1,14 @@
+Checking plan: experiments/run0/plans/llm_ic_pddl/blocksworld/p01.pddl
+
+Plan to validate:
+
+Plan size: 0
+
+Plan executed successfully - checking goal
+Plan valid
+Final value: 0 
+
+Successful plans:
+Value: 0
+ experiments/run0/plans/llm_ic_pddl/blocksworld/p01.pddl 0 
+

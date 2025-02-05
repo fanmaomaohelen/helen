@@ -1,0 +1,250 @@
+Checking plan: experiments/run0/plans/llm_ic_pddl/blocksworld/p19.pddl
+
+Plan to validate:
+
+Plan size: 24
+1:
+(unstack b3 b8)
+ 
+2:
+(putdown b3)
+ 
+3:
+(pickup b8)
+ 
+4:
+(stack b8 b3)
+ 
+5:
+(unstack b2 b5)
+ 
+6:
+(putdown b2)
+ 
+7:
+(unstack b4 b12)
+ 
+8:
+(putdown b4)
+ 
+9:
+(unstack b5 b7)
+ 
+10:
+(stack b5 b2)
+ 
+11:
+(unstack b7 b10)
+ 
+12:
+(stack b7 b4)
+ 
+13:
+(unstack b10 b11)
+ 
+14:
+(stack b10 b8)
+ 
+15:
+(pickup b11)
+ 
+16:
+(stack b11 b7)
+ 
+17:
+(unstack b12 b9)
+ 
+18:
+(stack b12 b11)
+ 
+19:
+(unstack b5 b2)
+ 
+20:
+(stack b5 b10)
+ 
+21:
+(unstack b6 b1)
+ 
+22:
+(stack b6 b12)
+ 
+23:
+(pickup b9)
+ 
+24:
+(stack b9 b2)
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (on b3 b8)
+Deleting (clear b3)
+Deleting (arm-empty)
+Adding (holding b3)
+Adding (clear b8)
+
+Checking next happening (time 2)
+Deleting (holding b3)
+Adding (clear b3)
+Adding (arm-empty)
+Adding (on-table b3)
+
+Checking next happening (time 3)
+Deleting (clear b8)
+Deleting (on-table b8)
+Deleting (arm-empty)
+Adding (holding b8)
+
+Checking next happening (time 4)
+Deleting (clear b3)
+Deleting (holding b8)
+Adding (arm-empty)
+Adding (clear b8)
+Adding (on b8 b3)
+
+Checking next happening (time 5)
+Deleting (on b2 b5)
+Deleting (clear b2)
+Deleting (arm-empty)
+Adding (holding b2)
+Adding (clear b5)
+
+Checking next happening (time 6)
+Deleting (holding b2)
+Adding (clear b2)
+Adding (arm-empty)
+Adding (on-table b2)
+
+Checking next happening (time 7)
+Deleting (on b4 b12)
+Deleting (clear b4)
+Deleting (arm-empty)
+Adding (holding b4)
+Adding (clear b12)
+
+Checking next happening (time 8)
+Deleting (holding b4)
+Adding (clear b4)
+Adding (arm-empty)
+Adding (on-table b4)
+
+Checking next happening (time 9)
+Deleting (on b5 b7)
+Deleting (clear b5)
+Deleting (arm-empty)
+Adding (holding b5)
+Adding (clear b7)
+
+Checking next happening (time 10)
+Deleting (clear b2)
+Deleting (holding b5)
+Adding (arm-empty)
+Adding (clear b5)
+Adding (on b5 b2)
+
+Checking next happening (time 11)
+Deleting (on b7 b10)
+Deleting (clear b7)
+Deleting (arm-empty)
+Adding (holding b7)
+Adding (clear b10)
+
+Checking next happening (time 12)
+Deleting (clear b4)
+Deleting (holding b7)
+Adding (arm-empty)
+Adding (clear b7)
+Adding (on b7 b4)
+
+Checking next happening (time 13)
+Deleting (on b10 b11)
+Deleting (clear b10)
+Deleting (arm-empty)
+Adding (holding b10)
+Adding (clear b11)
+
+Checking next happening (time 14)
+Deleting (clear b8)
+Deleting (holding b10)
+Adding (arm-empty)
+Adding (clear b10)
+Adding (on b10 b8)
+
+Checking next happening (time 15)
+Deleting (clear b11)
+Deleting (on-table b11)
+Deleting (arm-empty)
+Adding (holding b11)
+
+Checking next happening (time 16)
+Deleting (clear b7)
+Deleting (holding b11)
+Adding (arm-empty)
+Adding (clear b11)
+Adding (on b11 b7)
+
+Checking next happening (time 17)
+Deleting (on b12 b9)
+Deleting (clear b12)
+Deleting (arm-empty)
+Adding (holding b12)
+Adding (clear b9)
+
+Checking next happening (time 18)
+Deleting (clear b11)
+Deleting (holding b12)
+Adding (arm-empty)
+Adding (clear b12)
+Adding (on b12 b11)
+
+Checking next happening (time 19)
+Deleting (on b5 b2)
+Deleting (clear b5)
+Deleting (arm-empty)
+Adding (holding b5)
+Adding (clear b2)
+
+Checking next happening (time 20)
+Deleting (clear b10)
+Deleting (holding b5)
+Adding (arm-empty)
+Adding (clear b5)
+Adding (on b5 b10)
+
+Checking next happening (time 21)
+Deleting (on b6 b1)
+Deleting (clear b6)
+Deleting (arm-empty)
+Adding (holding b6)
+Adding (clear b1)
+
+Checking next happening (time 22)
+Deleting (clear b12)
+Deleting (holding b6)
+Adding (arm-empty)
+Adding (clear b6)
+Adding (on b6 b12)
+
+Checking next happening (time 23)
+Deleting (clear b9)
+Deleting (on-table b9)
+Deleting (arm-empty)
+Adding (holding b9)
+
+Checking next happening (time 24)
+Deleting (clear b2)
+Deleting (holding b9)
+Adding (arm-empty)
+Adding (clear b9)
+Adding (on b9 b2)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 24 
+
+Successful plans:
+Value: 24
+ experiments/run0/plans/llm_ic_pddl/blocksworld/p19.pddl 24 
+

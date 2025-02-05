@@ -1,0 +1,94 @@
+Checking plan: experiments/run0/plans/llm_ic_pddl/blocksworld/p05.pddl
+
+Plan to validate:
+
+Plan size: 8
+1:
+(unstack b4 b1)
+ 
+2:
+(putdown b4)
+ 
+3:
+(unstack b1 b2)
+ 
+4:
+(stack b1 b4)
+ 
+5:
+(unstack b2 b3)
+ 
+6:
+(putdown b2)
+ 
+7:
+(unstack b1 b4)
+ 
+8:
+(stack b1 b3)
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 1)
+Deleting (on b4 b1)
+Deleting (clear b4)
+Deleting (arm-empty)
+Adding (holding b4)
+Adding (clear b1)
+
+Checking next happening (time 2)
+Deleting (holding b4)
+Adding (clear b4)
+Adding (arm-empty)
+Adding (on-table b4)
+
+Checking next happening (time 3)
+Deleting (on b1 b2)
+Deleting (clear b1)
+Deleting (arm-empty)
+Adding (holding b1)
+Adding (clear b2)
+
+Checking next happening (time 4)
+Deleting (clear b4)
+Deleting (holding b1)
+Adding (arm-empty)
+Adding (clear b1)
+Adding (on b1 b4)
+
+Checking next happening (time 5)
+Deleting (on b2 b3)
+Deleting (clear b2)
+Deleting (arm-empty)
+Adding (holding b2)
+Adding (clear b3)
+
+Checking next happening (time 6)
+Deleting (holding b2)
+Adding (clear b2)
+Adding (arm-empty)
+Adding (on-table b2)
+
+Checking next happening (time 7)
+Deleting (on b1 b4)
+Deleting (clear b1)
+Deleting (arm-empty)
+Adding (holding b1)
+Adding (clear b4)
+
+Checking next happening (time 8)
+Deleting (clear b3)
+Deleting (holding b1)
+Adding (arm-empty)
+Adding (clear b1)
+Adding (on b1 b3)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 8 
+
+Successful plans:
+Value: 8
+ experiments/run0/plans/llm_ic_pddl/blocksworld/p05.pddl 8 
+
